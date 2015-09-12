@@ -37,3 +37,8 @@ filetype plugin indent on    " required
 :filetype plugin on
 :syntax on
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+" testing different font configurations
+
+set fileencoding=utf-8
+set guifontwide=NSimun:h12
