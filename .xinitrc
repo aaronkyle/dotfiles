@@ -35,10 +35,20 @@ fi
 
 # xcompmgr -c &
 # nitrogen --restore &
+syndaemon -k -i 0.3 -d &
+# xmonad
+openbox
 # urxvt &
-xmonad
-# xclock -geometry 50x50-1+1 &
+# xcck -geometry 50x50-1+1 &
 # xterm -geometry 80x50+494+51 &
 # xterm -geometry 80x20+494-0 &
 # exec xterm -geometry 80x66+0+0 -name login
-syndaemon -k -i 0.3 -d
+
+# connecting thunar:
+exec dbus-launch ck-launch-session startxfce4                            
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                                                  
+~                                                                                        
