@@ -36,8 +36,8 @@ fi
 # xcompmgr -c &
 # nitrogen --restore &
 syndaemon -k -i 0.3 -d &
-# xmonad
-openbox
+xmonad
+# openbox
 # urxvt &
 # xcck -geometry 50x50-1+1 &
 # xterm -geometry 80x50+494+51 &
